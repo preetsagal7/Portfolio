@@ -10,16 +10,17 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const activeSection = useActiveSection(sectionIds);
 
-  // Theme state
+  // Theme state: always defaults to light mode
   const [theme, setTheme] = useState<"light" | "dark">(() => {
-    const saved = localStorage.getItem("portfolio-theme");
+    const saved = localStorage.getItem("portfolio-theme-pref");
     if (saved === "light" || saved === "dark") return saved;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return "light"; // Always start with light mode
   });
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("portfolio-theme", theme);
+    localStorage.setItem("portfolio-theme-pref", theme);
+    localStorage.removeItem("portfolio-theme"); // clear legacy key from previous tests
 
     // Update meta theme-color
     const metaThemeColor = document.querySelector('meta[name="theme-color"]');
