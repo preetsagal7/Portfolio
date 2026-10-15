@@ -14,7 +14,7 @@ Designed for Sagalpreet Singh, a Computer Science & Engineering undergraduate sp
   - **Technical Skills**: Filterable skills catalog (Cybersecurity, Development, Tools, Core Concepts).
   - **Experience**: Cybersecurity Research Intern timeline at ShadowFox.
   - **Featured Projects**: Interactive modals with architecture breakdowns and repository links (Vanguard ID, Jal-Chakra, AI Voice Assistant).
-  - **Education & Certifications**: Guru Nanak Dev Engineering College (GNDEC), NPTEL, and IBM credentials.
+  - **Education & Certifications**: Guru Nanak Dev Engineering College (GNDEC), IBM, and Infosys credentials.
   - **Leadership**: SIH Hackathon leadership, cultural community contributions.
   - **Contact**: Email copy with feedback toast and direct outreach links.
 - **Accessibility & SEO**: Semantic HTML5, ARIA labels, meta descriptions, and responsive design for all screen sizes.

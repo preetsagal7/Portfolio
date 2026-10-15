@@ -14,7 +14,7 @@ export default function SectionReveal({
   className = "",
   style,
 }: Props) {
-  const [ref, inView] = useInView<HTMLDivElement>(0.1);
+  const [ref, inView] = useInView<HTMLDivElement>(0.1, false);
 
   return (
     <div

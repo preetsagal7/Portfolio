@@ -198,8 +198,6 @@ export interface Certification {
 }
 
 export const certifications: Certification[] = [
-  { title: "Programming in Java", issuer: "NPTEL/SWAYAM" },
-  { title: "Data Structures & Algorithms", issuer: "NPTEL/SWAYAM" },
   { title: "IBM SkillsBuild Technical Credentials", issuer: "IBM SkillsBuild" },
   {
     title: "Infosys Springboard Certifications",

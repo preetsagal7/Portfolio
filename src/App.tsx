@@ -11,6 +11,7 @@ import Leadership from "./sections/Leadership.tsx";
 import Contact from "./sections/Contact.tsx";
 import Footer from "./components/Footer.tsx";
 import CustomCursor from "./components/CustomCursor.tsx";
+import ScrollFeatures from "./components/ScrollFeatures.tsx";
 
 export default function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function App() {
   }, []);
   return (
     <>
+      <ScrollFeatures />
       <CustomCursor />
       <Navbar />
       <main>
