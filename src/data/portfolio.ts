@@ -5,9 +5,9 @@ export const personalInfo = {
   name: "Sagalpreet Singh",
   initials: "SS",
   tagline: "Cybersecurity Enthusiast | Software Developer | System Design Learner",
-  introLabel: "COMPUTER SCIENCE & ENGINEERING",
+  introLabel: "COMPUTER SCIENCE & ENGINEERING in IoT And CYBERSECURITY INCLUDING BLOCKCHAIN TECHNOLOGY",
   description:
-    "I'm a Computer Science and Engineering undergraduate passionate about cybersecurity, network traffic analysis, secure software systems, and building practical technology solutions.",
+    "I'm an undergraduate in Computer Science & Engineering (IoT and Cybersecurity including Blockchain Technology) passionate about cybersecurity, network traffic analysis, secure software systems, and building practical technology solutions.",
   availability: "Open to Learning & Technical Opportunities",
   location: "Bidar, Karnataka, India",
   email: "preetsagal7@gmail.com",
@@ -17,7 +17,7 @@ export const personalInfo = {
 };
 
 export const aboutText =
-  "Detail-oriented Computer Science and Engineering undergraduate at Guru Nanak Dev Engineering College (GNDEC), with a strong interest in cybersecurity, network traffic analysis, software development, and system architecture. Experienced in hands-on cybersecurity assessments, packet inspection, identity-verification platform development, and resilient system design. Have taken lead developer, system architect, and team leadership responsibilities across technical projects and hackathon initiatives.";
+  "Detail-oriented undergraduate in Computer Science & Engineering (IoT and Cybersecurity including Blockchain Technology) at Guru Nanak Dev Engineering College (GNDEC), with a strong interest in cybersecurity, network traffic analysis, software development, and system architecture. Experienced in hands-on cybersecurity assessments, packet inspection, identity-verification platform development, and resilient system design. Have taken lead developer, system architect, and team leadership responsibilities across technical projects and hackathon initiatives.";
 
 export const aboutHighlights = [
   { icon: "Shield", label: "Cybersecurity and Network Analysis" },
@@ -177,7 +177,8 @@ export const projects: Project[] = [
 export const education = {
   institution: "Guru Nanak Dev Engineering College (GNDEC)",
   location: "Bidar, Karnataka, India",
-  degree: "Bachelor of Engineering (B.E.) in Computer Science & Engineering",
+  department: "COMPUTER SCIENCE & ENGINEERING in IoT And CYBERSECURITY INCLUDING BLOCKCHAIN TECHNOLOGY",
+  degree: "Bachelor of Engineering (B.E.) in Computer Science & Engineering (IoT & Cyber Security Including Blockchain Technology)",
   university: "Visvesvaraya Technological University (VTU)",
   usn: "3GN24IC044",
   expectedGraduation: "June 2028",
@@ -185,6 +186,8 @@ export const education = {
     "Data Structures and Algorithms",
     "Computer Networks",
     "Operating Systems",
+    "Internet of Things (IoT)",
+    "Cryptography & Blockchain Fundamentals",
     "Web Development",
     "Microcontrollers and Embedded Systems (8051)",
     "Database Management Systems",

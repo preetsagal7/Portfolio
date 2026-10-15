@@ -46,6 +46,20 @@ export default function Education() {
               <div>
                 <h3 className="edu-institution">{education.institution}</h3>
                 <p className="edu-degree">{education.degree}</p>
+                {"department" in education && (
+                  <p
+                    className="edu-department"
+                    style={{
+                      fontSize: "0.85rem",
+                      fontWeight: 600,
+                      color: "var(--accent-primary)",
+                      marginTop: 4,
+                      letterSpacing: "0.5px",
+                    }}
+                  >
+                    Dept: {education.department}
+                  </p>
+                )}
               </div>
             </div>
 

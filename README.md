@@ -2,7 +2,7 @@
 
 A modern, responsive, and high-performance portfolio website built with **React**, **TypeScript**, and **Vite**.
 
-Designed for Sagalpreet Singh, a Computer Science & Engineering undergraduate specializing in cybersecurity, network traffic analysis, software development, and system architecture.
+Designed for Sagalpreet Singh, a Computer Science & Engineering in IoT and Cybersecurity including Blockchain Technology undergraduate specializing in cybersecurity, network traffic analysis, software development, and system architecture.
 
 ## 🚀 Features
 
